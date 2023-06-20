@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(245, 245, 245, 0.7);
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal-login {
+  border: rgb(241, 232, 232) solid;
+  border-radius: 15px;
+  margin-left: 38vw;
+  margin-top: 25vh;
+  width: 400px;
+  height: 480px;
+  background-color: white;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 48px 0 48px;
+}
+
+.modal-content {
+  padding: 0 48px 24px 48px;
+}
+
+.id-input,
+.password-input,
+.login-button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
+}
+
+input[name="close-button"] {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+input[name="close-button"]:hover {
+  background-color: rgba(49, 130, 206, 0.8);
+  color: white;
+}
+
+input[name="id"] {
+  border-radius: 10px;
+  border: rgb(3, 38, 165) solid;
+  width: 20rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  padding-left: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+input[name="id"]::placeholder {
+  font-size: 1.2rem;
+  border: 5px;
+}
+
+input[name="id"]:placeholder-shown {
+  padding-left: 5px;
+  font-size: 1rem;
+}
+
+input[name="password"] {
+  border-radius: 10px;
+  border: rgb(3, 38, 165) solid;
+  width: 20rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  padding-left: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+input[name="password"]::placeholder {
+  font-size: 1.2rem;
+  border: 5px;
+}
+
+input[name="password"]:placeholder-shown {
+  padding-left: 5px;
+  font-size: 1rem;
+}
+
+input[name="login-button"] {
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(49, 130, 206, 0.8);
+  width: 20rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+input[name="login-button"]:hover {
+  color: white;
+  border: rgb(3, 38, 165) solid 5px;
+}

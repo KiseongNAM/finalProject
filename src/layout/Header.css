@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Serif+KR&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gowun Dodum", sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: rgba(49, 130, 206, 0.8);
+  position: sticky;
+  top: 0;
+}
+
+.header_wrap {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.header_wrap > a {
+  text-decoration: none;
+}
+
+#header_img {
+  height: 81.5px;
+  width: 72.8px;
+}
+
+#header {
+  display: inline;
+  margin-top: 0;
+  padding-top: 15px;
+  color: whitesmoke;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+#login {
+  position: absolute;
+  top: 0.7rem;
+  right: 1.5rem;
+}
+
+#login input {
+  border: rgb(3, 38, 165) solid;
+  border-radius: 5px;
+  background-color: transparent;
+  color: black;
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+#login input:hover {
+  background-color: rgba(245, 245, 245, 0.926);
+}
+
+.nav_bar {
+  padding: 10px 0;
+}
+
+#nav_list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+#nav_list a {
+  text-decoration: none;
+
+  color: black;
+  transition: 0.3s linear;
+}
+
+#nav_list a:visited {
+  color: black;
+}
+
+#nav_list a:hover {
+  color: rgba(245, 245, 245, 0.926);
+  text-decoration: underline wavy rgba(245, 245, 245, 0.926);
+}

@@ -1,0 +1,34 @@
+.job-notice-header {
+  margin-bottom: 15px;
+}
+
+#job_notice_title > li {
+  margin-left: 35px;
+  padding: 15px;
+  font-size: 1.2rem;
+  border-bottom: 1px solid;
+  cursor: pointer;
+}
+
+#job_notice_title > li:first-child {
+  border-top: 1px solid;
+}
+
+#job_notice_title > li:last-child {
+  margin-bottom: 15px;
+}
+
+#job_notice_title a {
+  color: black;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+}
+
+#job_notice_title a:visited {
+  color: black;
+}
+
+#job_notice_title a:hover {
+  border-radius: 5px;
+  background-color: rgba(49, 130, 206, 0.8);
+}

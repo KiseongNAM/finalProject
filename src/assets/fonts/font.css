@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Serif+KR&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gowun Dodum", sans-serif;
+}
+
+#join_header,
+#notice_header,
+#subject_header,
+#job_notice_header,
+#free_board_header,
+#write_board_header {
+  color: rgb(3, 38, 165);
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 3rem;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#modal_header {
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+hr {
+  border: rgb(3, 38, 165) solid;
+  margin-left: 5px;
+  width: 24rem;
+}

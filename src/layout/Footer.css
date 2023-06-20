@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: rgba(49, 130, 206, 0.8);
+  color: whitesmoke;
+  text-align: center;
+}

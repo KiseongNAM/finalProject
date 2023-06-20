@@ -1,0 +1,39 @@
+.subject {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.subject > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.subject > div > h2 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.subject li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+
+.subject li:hover {
+  border-radius: 5px;
+  background-color: rgba(49, 130, 206, 0.8);
+}
+
+#hide-detail {
+  display: none;
+  transition: 0.3s ease-in;
+}
+
+#seperator {
+  display: flex;
+  width: 10rem;
+  margin: 5px auto;
+}

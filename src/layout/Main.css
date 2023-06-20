@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gowun Dodum", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 4fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 0.7rem;
+  column-gap: 1rem;
+  height: 100%;
+  text-align: center;
+  margin: 30px 5px;
+}
+
+.container h4 {
+  margin: 2px 0 0 0;
+}
+
+#sidebar_right {
+  position: fixed;
+  top: 30vh;
+  right: 0;
+  background-color: rgba(143, 179, 226, 0.4);
+  width: 115px;
+  height: 230px;
+}
+
+#sidebar_right p {
+  margin-top: 30px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0.5;
+  transition: 0.3s ease-in;
+}
+
+#sidebar_right p:hover {
+  opacity: 1;
+}
+
+#ads-close {
+  position: fixed;
+  right: 0;
+  width: 20px;
+  margin-top: 2px;
+  background-color: transparent;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.3s ease-in;
+}
+
+#ads-close:hover {
+  font-size: 20px;
+  opacity: 1;
+}
+
+/* .container > section:nth-child(1) {
+  grid-row: span 2;
+}
+
+.container > section:nth-child(4) {
+  grid-row: span 2;
+} */
+
+.container > section {
+  background-color: rgba(245, 245, 245, 0.926);
+  border-radius: 5px;
+}
+
+.container > section div {
+  border-radius: 5px;
+}
+
+.container h4 {
+  display: inline;
+}
+
+.wrap {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgba(49, 130, 206, 0.8);
+}
+
+#main-notice-title {
+  padding-left: 10px;
+}
+
+#main-notice-title ul {
+  margin-top: 5px;
+}
+#main-notice-title li {
+  text-align: start;
+  margin: 10px auto;
+}
+
+#main-notice-title li > a {
+  text-align: start;
+  margin: 10px auto;
+  text-decoration: none;
+  color: black;
+}
+
+.main-board-list {
+  padding-left: 10px;
+}
+
+.main-board-list ol {
+  margin-left: 15px;
+  margin-top: 5px;
+  list-style-type: disc;
+}
+
+.main-board-list li {
+  text-align: start;
+  margin: 10px auto;
+}
+
+#more {
+  width: 70%;
+  text-align: end;
+  padding-right: 10px;
+}
+
+#more > a {
+  transition: 0.3s ease-in-out;
+}
+
+#more > a:visited {
+  color: rgb(3, 38, 165);
+}
+
+#more > a:hover {
+  color: rgba(245, 245, 245, 0.926);
+  text-decoration: underline wavy rgba(245, 245, 245, 0.926);
+}
+
+.wrap > h4 {
+  width: 30%;
+  text-align: start;
+  padding-left: 10px;
+}
+
+.wrap a {
+  text-decoration: none;
+}
+
+.wrap a:visited {
+  color: black;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #sidebar_left {
+    display: none;
+  }
+
+  #login {
+    display: none;
+  }
+}

@@ -40,7 +40,7 @@ class App extends Component {
             <Login onClose={this.handleCloseModal} />
           </ModalPortal>
         )}
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router basename="https://kiseongnam.github.io/finalProject">
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="notice" element={<Notice />} />
